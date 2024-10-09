@@ -2,6 +2,7 @@ import { Route, Routes } from 'react-router-dom'
 import { Accounts } from '../page/Accounts/Accounts'
 import { CreditCards } from '../page/CreditCards/CreditCards'
 import { Dashboard } from '../page/Dashboard/Dashboard'
+import { EditProfile } from '../page/EditProfile/EditProfile'
 import { ErrorPage } from '../page/ErrorPage/ErrorPage'
 import { Investments } from '../page/Investments/Investments'
 import { Loans } from '../page/Loans/Loans'
@@ -26,6 +27,7 @@ export const Router = () => {
 			<Route path='/privileges' element={<Privileges />} />
 			<Route path='/settings' element={<Settings />} />
 			{/* Routing in settings */}
+			<Route path='/editProfile' element={<EditProfile />} />
 			<Route path='/preferences' element={<Preferences />} />
 			<Route path='/security' element={<Security />} />
 			{/* Error page 404 */}

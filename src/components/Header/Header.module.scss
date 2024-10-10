@@ -1,6 +1,7 @@
 @import '../../GlobalStyles/styles.scss';
 
 .header {
+	background-color: rgba(255, 255, 255, 1);
 }
 
 .header_box {
@@ -8,6 +9,7 @@
 	flex-direction: row;
 	align-items: center;
 	height: 100px;
+	background-color: rgba(255, 255, 255, 1);
 }
 
 .logo {
@@ -18,7 +20,8 @@
 	gap: 9px;
 	margin-left: 44px;
 	padding-right: 32px;
-	height: 100px;
+	padding-top: 33px;
+	padding-bottom: 31px;
 	border-right: 1px solid rgba(230, 239, 245, 1);
 }
 

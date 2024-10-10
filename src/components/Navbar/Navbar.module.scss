@@ -3,12 +3,12 @@
 .navbar {
 	display: flex;
 	flex-direction: column;
-	gap: 40px;
-	width: 250px;
+	width: 249px;
 	height: 925px;
 	align-items: start;
 	border-right: 1px solid rgba(230, 239, 245, 1);
 	padding-top: 31px;
+	background-color: rgba(255, 255, 255, 1);
 }
 
 .link {
@@ -21,6 +21,7 @@
 	color: $secondary-color;
 	font-family: $secondary-font;
 	font-size: 18px;
+	padding-bottom: 39px;
 }
 .active_line {
 	margin-right: 35px;
@@ -31,7 +32,7 @@
 }
 
 .active_link {
-	margin-top: -10px;
+	margin-top: -17px;
 	display: flex;
 	align-items: center;
 	justify-content: center;

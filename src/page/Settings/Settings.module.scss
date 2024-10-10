@@ -63,6 +63,7 @@
 	height: 130px;
 	position: relative;
 	margin-right: 53px;
+	margin-top: 3px;
 }
 
 .image_pencil {
@@ -132,6 +133,9 @@
 .arrow {
 	position: absolute;
 	left: 381px;
+	right: 25px;
+	top: 22px;
+	bottom: 22px;
 }
 
 .save {
@@ -146,6 +150,8 @@
 	color: rgba(255, 255, 255, 1);
 	margin-left: 890px;
 	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-right: 30px;
 }
 
 @media (width <= 375px) {
@@ -169,7 +175,7 @@
 	.image_pencil {
 		width: 39px;
 		height: 39px;
-		left: 106px;
+		left: 132px;
 		top: 111px;
 	}
 
@@ -218,6 +224,7 @@
 	}
 
 	.input_birth {
+		height: 65px;
 	}
 
 	.input_field {
@@ -237,7 +244,9 @@
 
 	.arrow {
 		width: 10px;
-		left: 250px;
+		left: 230px;
+		margin-right: 20px;
+		padding-bottom: 10px;
 	}
 
 	.save {
